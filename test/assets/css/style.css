@@ -1,0 +1,398 @@
+/* ---------------------------------------------------
+    GENERAL STYLE
+----------------------------------------------------- */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* NeoSans font (downloaded) */
+@font-face {
+    src: url(assets/fonts/neosans/NeoSans-Medium-Italic.otf);
+    font-family: NeoSans;
+}
+
+body {
+    font-family: Arial;
+}
+
+.wrapper {
+    width: 1024px;
+    height: 1315px;
+    margin: auto;
+    background-color: #F0F0F0;
+    position: relative;
+}
+
+/* ---------------------------------------------------
+    Banner row
+----------------------------------------------------- */
+.bannerRow{
+    position: relative;
+    height: 570px;
+}
+/*
+#gallery #previous {
+    display: inline;
+    float: left; 
+fade or slide
+}
+
+#gallery #next {
+    display: inline;
+    float: right;
+}
+*/
+
+#loginForm {
+    width: 400px;
+    font-size: 12px;
+    background-color: #8f9aa6;
+    position: absolute;
+    left: 606px;
+    padding: 10px 0px 10px 16px;
+    padding-left: 40px;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/* login & read article ">" sign */
+.fa-angle-right {
+    color: white;
+    position: relative;
+    right: 7px;   
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#imgOffice { 
+    height: 550px;
+    width: 990px;
+    opacity: 0.9; 
+}
+
+#theOffice {
+    position: absolute;
+    top: 200px;
+    left: 23px;
+    width: 186px;
+}
+
+.theOfficeTitle {
+    position: relative;
+    left: 12px;
+    top: 10px;
+    width: 170px;
+    color: white;
+    line-height: 37px;
+    font-family: NeoSans; 
+    font-size: 51px;
+    text-align: right;
+}
+
+#plusIconTop {
+    color: white;
+    background: #4ab5b5;
+    font-size: 24px;
+    position: absolute;
+    bottom: 2px;
+    left: 186px;
+    padding-left: 11px;
+    width: 34px;
+    height: 34px;
+    z-index: 1;
+}
+
+#NextPrevImgBtn {
+    background-color: #4ab5b5;
+    height: 40px;
+    width: 990px;
+    position: absolute;
+    bottom: 20px;
+    padding-left: 850px;
+}
+
+#previous {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    padding: 10px; 
+    top: -15px;
+}
+
+#next {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: -15px;
+}
+
+/* ---------------------------------------------------
+    The Business Company row
+----------------------------------------------------- */
+.companyRow{
+    height: 62px;
+    width: 1024px;
+    position: relative;
+}
+
+#companyName {
+    color: #4ab5b5;
+    position: relative;
+    padding: 10px 295px; 
+    font-family: NeoSans;
+    font-weight: lighter;
+}
+
+mark {
+    background-color: black;
+    color: #4ab5b5;
+    padding: 7px;
+}
+
+
+/* ---------------------------------------------------
+    Big buttons first & second row
+----------------------------------------------------- */
+.bigBtnRows {
+    position: relative;
+    top: 10px;
+    height: 120px;
+}
+
+.bigBtn {
+    background-color: #4ab5b5;
+    color: white;
+    font-size: 35px;
+    font-family: NeoSans;
+    font-weight: 300;
+    letter-spacing: 2px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 8px;
+    border-style: none;
+    z-index: 1;
+}
+
+button:focus {
+    outline: 0px;
+}
+
+.btnTitle {
+    background-color: white;
+    height: 100px;
+    font-family: NeoSans;
+    font-weight: lighter;
+    padding-left: 117px;
+    padding-top: 10px;
+    overflow: hidden;
+    position: relative;
+    bottom: 92px;
+}
+
+.plusIconMiddle1 {
+    color: #4ab5b5;
+    position: relative;
+    left: 200px;
+    top: 8px;
+}
+.plusIconMiddle2 {
+    color: #4ab5b5;
+    position: relative;
+    left: 226px;
+    top: 8px;
+}
+.plusIconMiddle3 {
+    color: #4ab5b5;
+    position: relative;
+    left: 187px;
+    top: 8px;
+}
+
+.plusIconMiddle4 {
+    color: #4ab5b5;
+    position: relative;
+    left: 197px;
+    top: 8px;
+}
+
+.textLoremI {
+    font-size: 15px;
+    padding-top: 19px;
+    padding-right: 17px;
+}
+
+/* ---------------------------------------------------
+    Small buttons row
+----------------------------------------------------- */
+
+.smallBtnRow {
+    position: relative;
+    top: 20px;
+}
+
+.trim-text {
+    max-width: 91px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-family: NeoSans;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.plusIconBottom {
+    color: white;
+    background-color: #4ab5b5;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 120px;
+    top: 3px;
+}
+
+.underline{
+    width: 136px;
+    height: 2px;
+    background-color: #4ab5b5;
+    position: absolute;
+    top: 27px;
+    left: 39px;
+}
+
+/* ---------------------------------------------------
+    View more row
+----------------------------------------------------- */
+
+.viewMoreRow {
+    position: relative;
+    top: 20px;
+}
+
+#viewMore {
+    color: #4ab5b5;
+    font-size: 15px;
+    position: relative;
+    padding-left: 453px;
+    top: 33px;
+}
+
+#underlineVM {
+    background-color: #4ab5b5;
+    width: 120px;
+    position: relative;
+    left: 0px;
+    top: 14px;
+    
+}
+
+/* ---------------------------------------------------
+    Article row
+----------------------------------------------------- */
+.clientArticleRow {
+    background-color: white;
+    position: relative;
+    top: 50px;
+    width: 1000px;
+    height: 286px;
+    left: 12px;
+}
+
+#articleTitle {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+#picArticle {
+    display: inline-block;
+    height: 115px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+    padding-left: 80px;
+    z-index: 1;
+}
+
+#clientArticle {
+    width: 750px;
+    height: 120px;
+    position: relative;
+    bottom: 106px;
+    padding-left: 270px;
+    overflow: hidden;
+    font-family: NeoSans;
+    font-weight: lighter;
+}
+
+#readArticle {
+    position: absolute;
+    top: 190px;
+    color: white;
+    left: 871px;
+    font-size: 12px;
+    z-index: 1;
+}
+
+/* diagonal split background*/
+#diagonal-split-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 85px;
+    width: 95px;
+    background-image: -webkit-linear-gradient(127deg, white 53%, #4ab5b5 28%);
+}
+#diagonal-split-right {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    height: 190px;
+    width: 230px;
+    background-image: -webkit-linear-gradient(127deg, #4ab5b5 48%, white 0%);
+}
+
+/* ---------------------------------------------------
+    Angle bottom row
+----------------------------------------------------- */
+.angle-bottom-row {
+    position: absolute;
+    height: 50px;
+    bottom: 16px;
+    left: 0px;
+}
+
+#left-angle {
+    background-color: #4ab5b5;
+    color: white;
+    font-size: 25px;
+    border-style: none;
+    position: relative;
+    right: 0px;
+    padding-left: 12px;
+    padding-right: 15px;    
+}
+
+#right-angle {
+    background-color: #4ab5b5;
+    color: white;
+    font-size: 25px;
+    border-style: none;
+    position: relative;
+    left: 0px;
+    padding-left: 20px;
+}
